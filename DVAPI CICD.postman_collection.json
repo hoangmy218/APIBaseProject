@@ -74,134 +74,7 @@
             },
             "description": "Register your user in DVAPI"
           },
-          "response": [
-            {
-              "name": "Success",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\":\"user\",\r\n    \"password\":\"pass\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": {
-                  "raw": "http://localhost:3000/api/register",
-                  "protocol": "http",
-                  "host": [
-                    "localhost"
-                  ],
-                  "port": "3000",
-                  "path": [
-                    "api",
-                    "register"
-                  ]
-                }
-              },
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "json",
-              "header": [
-                {
-                  "key": "X-Powered-By",
-                  "value": "Express"
-                },
-                {
-                  "key": "Content-Type",
-                  "value": "application/json; charset=utf-8"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "56"
-                },
-                {
-                  "key": "ETag",
-                  "value": "W/\"38-gzph6Lu8grqViomWbuIoGrUbwfA\""
-                },
-                {
-                  "key": "Date",
-                  "value": "Thu, 13 Apr 2023 05:46:02 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "keep-alive"
-                },
-                {
-                  "key": "Keep-Alive",
-                  "value": "timeout=5"
-                }
-              ],
-              "cookie": [],
-              "body": "{\n    \"status\": \"success\",\n    \"message\": \"Registration successful\"\n}"
-            },
-            {
-              "name": "Error",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\":\"user\",\r\n    \"password\":\"pass\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": {
-                  "raw": "http://localhost:3000/api/register",
-                  "protocol": "http",
-                  "host": [
-                    "localhost"
-                  ],
-                  "port": "3000",
-                  "path": [
-                    "api",
-                    "register"
-                  ]
-                }
-              },
-              "status": "Conflict",
-              "code": 409,
-              "_postman_previewlanguage": "json",
-              "header": [
-                {
-                  "key": "X-Powered-By",
-                  "value": "Express"
-                },
-                {
-                  "key": "Content-Type",
-                  "value": "application/json; charset=utf-8"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "41"
-                },
-                {
-                  "key": "ETag",
-                  "value": "W/\"29-DoGDPiFYp71tiTJ2we483WNKq1U\""
-                },
-                {
-                  "key": "Date",
-                  "value": "Thu, 13 Apr 2023 06:28:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "keep-alive"
-                },
-                {
-                  "key": "Keep-Alive",
-                  "value": "timeout=5"
-                }
-              ],
-              "cookie": [],
-              "body": "{\n    \"message\": \"Username already registered\"\n}"
-            }
-          ]
+          "response": []
         },
         {
           "name": "Check Register - Duplicated",
@@ -249,134 +122,7 @@
             },
             "description": "Register your user in DVAPI"
           },
-          "response": [
-            {
-              "name": "Success",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\":\"user\",\r\n    \"password\":\"pass\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": {
-                  "raw": "http://localhost:3000/api/register",
-                  "protocol": "http",
-                  "host": [
-                    "localhost"
-                  ],
-                  "port": "3000",
-                  "path": [
-                    "api",
-                    "register"
-                  ]
-                }
-              },
-              "status": "OK",
-              "code": 200,
-              "_postman_previewlanguage": "json",
-              "header": [
-                {
-                  "key": "X-Powered-By",
-                  "value": "Express"
-                },
-                {
-                  "key": "Content-Type",
-                  "value": "application/json; charset=utf-8"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "56"
-                },
-                {
-                  "key": "ETag",
-                  "value": "W/\"38-gzph6Lu8grqViomWbuIoGrUbwfA\""
-                },
-                {
-                  "key": "Date",
-                  "value": "Thu, 13 Apr 2023 05:46:02 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "keep-alive"
-                },
-                {
-                  "key": "Keep-Alive",
-                  "value": "timeout=5"
-                }
-              ],
-              "cookie": [],
-              "body": "{\n    \"status\": \"success\",\n    \"message\": \"Registration successful\"\n}"
-            },
-            {
-              "name": "Error",
-              "originalRequest": {
-                "method": "POST",
-                "header": [],
-                "body": {
-                  "mode": "raw",
-                  "raw": "{\r\n    \"username\":\"user\",\r\n    \"password\":\"pass\"\r\n}",
-                  "options": {
-                    "raw": {
-                      "language": "json"
-                    }
-                  }
-                },
-                "url": {
-                  "raw": "http://localhost:3000/api/register",
-                  "protocol": "http",
-                  "host": [
-                    "localhost"
-                  ],
-                  "port": "3000",
-                  "path": [
-                    "api",
-                    "register"
-                  ]
-                }
-              },
-              "status": "Conflict",
-              "code": 409,
-              "_postman_previewlanguage": "json",
-              "header": [
-                {
-                  "key": "X-Powered-By",
-                  "value": "Express"
-                },
-                {
-                  "key": "Content-Type",
-                  "value": "application/json; charset=utf-8"
-                },
-                {
-                  "key": "Content-Length",
-                  "value": "41"
-                },
-                {
-                  "key": "ETag",
-                  "value": "W/\"29-DoGDPiFYp71tiTJ2we483WNKq1U\""
-                },
-                {
-                  "key": "Date",
-                  "value": "Thu, 13 Apr 2023 06:28:37 GMT"
-                },
-                {
-                  "key": "Connection",
-                  "value": "keep-alive"
-                },
-                {
-                  "key": "Keep-Alive",
-                  "value": "timeout=5"
-                }
-              ],
-              "cookie": [],
-              "body": "{\n    \"message\": \"Username already registered\"\n}"
-            }
-          ]
+          "response": []
         },
         {
           "name": "Check Login Success",
@@ -814,9 +560,6 @@
                 "exec": [
                   "pm.test(\"Status code is 200\", function () {\r",
                   "    pm.response.to.have.status(200);\r",
-																					  
-																					 
-																									 
                   "});\r",
                   "\r",
                   "var jsonData = pm.response.json();\r",
@@ -3211,14 +2954,8 @@
             "method": "POST",
             "header": [],
             "body": {
-              "mode": "formdata",
-              "formdata": [
-                {
-                  "key": "file",
-                  "type": "file",
-                  "src": "close-up-white-cat-with-blue-eyes-121224.jpg"
-                }
-              ]
+              "mode": "raw",
+              "raw": "\"body\": {\r\n    \"mode\": \"formdata\",\r\n    \"formdata\": [\r\n        {\r\n            \"key\": \"file\",\r\n            \"type\": \"file\",\r\n            \"src\": \"\"D:\\\\Working\\\\TestingDocs\\\\API\\\\Course\\\\Testdata\\\\white-cat.jpg\"\" \r\n        }\r\n    ]\r\n}"
             },
             "url": {
               "raw": "{{local}}/api/profile/upload",
