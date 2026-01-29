@@ -637,9 +637,9 @@
               "listen": "prerequest",
               "script": {
                 "exec": [
-                  "const randomPassword = \"changed_pass\";\r",
-                  "pm.environment.set(\"new_password\", randomPassword);\r",
-                  "console.log(\"New Password: \" + randomPassword)\r",
+                  "// const randomPassword = \"newpass\";\r",
+                  "// pm.environment.set(\"new_password\", randomPassword);\r",
+                  "// console.log(\"New Password: \" + randomPassword)\r",
                   ""
                 ],
                 "type": "text/javascript",
